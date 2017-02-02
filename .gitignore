@@ -1,0 +1,14 @@
+# OS Files
+.DS_Store
+
+# Vagrant Files
+.vagrant
+vm_config.yml
+
+# Library caches
+.librarian
+.tmp
+
+# Node template ignore
+/node/provisioning/modules/*
+!/node/provisioning/modules/.gitkeep
